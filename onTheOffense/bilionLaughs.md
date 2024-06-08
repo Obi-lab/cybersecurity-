@@ -35,7 +35,7 @@ Here is an example of an XML file used in a billion laughs attack:
 
 #### Explanation of the XML File
 
-1. **Entity Definitions**: 
+1. **Entity Definitions**:
    - `<!ENTITY lol "lol">` defines an entity `lol` with the value "lol".
    - `<!ENTITY lol1 "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;">` defines `lol1` as ten repetitions of the `lol` entity.
    - This pattern continues, with each subsequent entity (`lol2`, `lol3`, etc.) being defined as ten repetitions of the previous entity.
